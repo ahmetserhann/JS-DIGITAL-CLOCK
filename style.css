@@ -1,0 +1,46 @@
+
+body{
+    background-color:gray;
+    color:aliceblue;
+}
+#clock{
+    text-align: center;
+    width: 50%;  
+    /* 50% demek ekran boyutu ne olursa olsun ekranın yarısını kapyacak demek oluyor. */
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+#clock h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+}
+.clock-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: normal;
+    align-items: center;
+    align-content: center;
+}
+.clock-items{
+    width: 32%;
+    background-color: aliceblue;
+    color: #000;
+    border-radius: 10px;
+    border-color: aquamarine;
+    border: solid;
+    margin: 10px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 50px;
+}
+#date{
+    background-color: antiquewhite;
+    border: 1px solid #000;
+    color:#000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+
+}
